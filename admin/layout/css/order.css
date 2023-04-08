@@ -1,0 +1,310 @@
+body {
+    /* overflow: hidden; */
+    box-sizing: border-box;
+}
+
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*-----start login------*/
+
+.adminForm {
+    text-align: center;
+    background-color: #e5e5e5;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.adminForm input {
+    width: 350px;
+}
+
+/*-----end login------*/
+
+/*-----start Sidebar------*/
+.home {
+    display: flex;
+    background-color: #e5e5e582;
+}
+
+.s {
+    background-color: #414141;
+}
+
+.home .sidebar {
+    /* background-color: #414141; */
+    height: 100vh;
+    padding: 10px 0;
+    color: #fff;
+    width: 255px;
+}
+
+.home .sidebar .ad {
+    color: #fff;
+}
+
+.home .sidebar ul li svg {
+    font-size: 27px;
+    width: 40px;
+}
+
+.home .sidebar ul li a {
+    margin-left: 13px;
+}
+
+.home .sidebar ul,
+.home .s,
+.home .h {
+    padding: 0;
+
+}
+
+.home .h {
+    width: 100%;
+}
+
+.home .sidebar .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+
+.home .sidebar .profile img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: block;
+}
+
+.home .profile .dropMenu {
+    position: absolute;
+    left: 50% !important;
+    top: 100% !important;
+    transform: translateX(-50%) !important;
+}
+
+.home .sidebar h3,
+.home .sidebar .MenuSidebar li {
+    margin-bottom: 15px;
+    padding: 7px 30px;
+}
+
+.home .sidebar .MenuSidebar li a {
+    color: #fff;
+}
+
+.home .showDrop {
+    height: 0;
+    overflow: hidden;
+}
+
+.home .header {
+    background-color: #fff;
+    padding: 4px 45px;
+    margin-bottom: 15px;
+
+}
+
+.home .header .row {
+    place-items: center;
+}
+
+.home .header .noti {
+    position: relative;
+}
+
+.home .header .noti span {
+    position: absolute;
+    background-color: blue;
+    width: 17px;
+    height: 17px;
+    top: -11px;
+    right: -14px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.home .header .bars {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/*-----end Sidebar ------*/
+
+/*-----start dashbard-----*/
+.dashoard {
+    padding: 5px 45px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.dashoard div {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.dashoard div h3 {
+    font-size: 20px;
+}
+
+.dashoard div span {
+    display: block;
+    margin-bottom: 7px;
+}
+
+.dashoard div span:first-of-type {
+    font-size: 30px;
+}
+
+/*-----end dashbard-----*/
+
+/*-----start users-----*/
+.users,
+.category,
+.foodView {
+    padding: 20px;
+    width: 92%;
+    margin: auto;
+    background-color: #fff;
+}
+
+.main-table tr:first-child td {
+    background-color: #333;
+    color: #fff;
+}
+
+.formUsers {
+    width: 60%;
+}
+
+.formUsers label,
+.formUsers input {
+    margin-bottom: 10px;
+}
+
+.detailuser {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detailuser ul {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.detailuser ul li {
+    margin-bottom: 15px;
+}
+
+/*-----end users-----*/
+
+/*-----start category-----*/
+.catEdit {
+    padding: 20px;
+    width: 92%;
+    margin: auto;
+    background-color: #fff;
+}
+
+.catEdit h2 {
+    margin-bottom: 15px;
+}
+
+.catEdit input[type="text"] {
+    width: 90%;
+    padding-left: 10px;
+    height: 37px;
+    margin-bottom: 10px;
+}
+
+/*-----end category-----*/
+
+/*-----start menu-----*/
+.menuForm {
+    margin-top: 50px;
+}
+
+.menu,
+.menuForm {
+    padding: 20px;
+    width: 92%;
+    margin: auto;
+    background-color: #fff;
+}
+
+.menuForm label {
+    width: 120px;
+}
+
+.menuForm input,
+.menuForm textarea {
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+.menuForm select {
+    width: 70%;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+.menu img {
+    width: 65px;
+    height: 55px;
+}
+
+/*-----end menu-----*/
+
+/*-----start Food View order-----*/
+
+.foodView table td span {
+    font-weight: bold;
+}
+
+.foodView img {
+    width: 65px;
+    height: 55px;
+}
+
+.foodView textarea {
+    width: 100%;
+    height: 100px;
+}
+
+/*-----end Food View order-----*/
+
+/*-----start Profile admin-----*/
+
+.profile ul li {
+    margin-bottom: 20px;
+}
+
+.profile ul li span {
+    display: inline-block;
+    width: 100px;
+}
+
+.profile ul li input {
+    margin-left: 30px;
+    width: 70%;
+    height: 35px;
+}
+
+/*-----end Profile admin-----*/
